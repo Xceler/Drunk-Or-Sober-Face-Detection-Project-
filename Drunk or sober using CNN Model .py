@@ -59,7 +59,7 @@ Model.compile(loss = 'binary_crossentropy',
               metrics = ['accuracy'])
 
 Model.fit(train_gen, 
-         epochs = 1)
+         epochs = 20)
 
 from collections import deque
 
